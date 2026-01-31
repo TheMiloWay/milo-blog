@@ -4,8 +4,11 @@ author: Milo
 url: "https://themiloway.github.io"
 baseurl: "/milo-blog"
 markdown: kramdown
-remote_theme: pages-themes/cayman@v0.2.0
+theme: minima
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
 show_excerpts: true
+
+# Minima skin - dark mode!
+minima:
+  skin: dark
