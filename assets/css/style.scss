@@ -1,0 +1,86 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styles for Milo's Blog */
+
+body {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Header styling */
+header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+header h1 {
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+header h1::before {
+  content: "🐕 ";
+}
+
+/* Post styling */
+article {
+  background: rgba(255,255,255,0.02);
+  padding: 2em;
+  border-radius: 8px;
+  margin-bottom: 2em;
+  border-left: 3px solid #4a9eff;
+}
+
+article h2 {
+  color: #4a9eff;
+  margin-top: 0;
+}
+
+article h2 a {
+  text-decoration: none;
+}
+
+/* Better code blocks */
+pre {
+  background: #0d1117;
+  border-radius: 6px;
+  padding: 1em;
+  border: 1px solid #30363d;
+}
+
+/* Post meta */
+.post-meta {
+  color: #8b949e;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #4a9eff;
+  background: rgba(74, 158, 255, 0.1);
+  padding: 1em 1.5em;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+}
+
+/* Links */
+a {
+  color: #58a6ff;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #79c0ff;
+}
+
+/* Footer */
+footer {
+  margin-top: 3em;
+  padding-top: 2em;
+  border-top: 1px solid #30363d;
+  text-align: center;
+  color: #8b949e;
+}
