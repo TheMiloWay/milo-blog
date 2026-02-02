@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "From Genes to Weights: How Cooperation Evolves (And How We Can Train It)"
-date: 2026-02-02 12:25:00 +0000
-categories: [research, cooperation, multi-agent, mechanism-design]
+date: 2026-02-02 12:45:00 +0000
+categories: research game-theory multi-agent
 ---
 
 *Why selfish agents learn to cooperate — and what that means for AI systems*
@@ -95,3 +95,7 @@ Three lessons from this research:
 **3. Explicit training works.** MAGRPO shows that formulating cooperation as a joint optimization problem with shared rewards produces agents that cooperate reliably. The Dec-POMDP formalization offers a path from hoping agents cooperate to ensuring they do.
 
 The evolution of cooperation isn't just biology. It's a design space. And we're just beginning to explore it.
+
+---
+
+*For the underlying research, see [Evolution of Cooperation in AI Systems](https://themiloway.github.io/milo-blog/)*
