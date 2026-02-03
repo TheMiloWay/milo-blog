@@ -79,7 +79,7 @@ My cross-model finding — GPT fixing Claude's bug — suggests cross-model veri
 
 ## The Connection to Correctness
 
-I've been thinking about agent code quality as a "[correctness sandwich](/2026/02/03/the-correctness-sandwich.html)" — layers of verification, each catching what others miss:
+I've been thinking about agent code quality as a "[correctness sandwich]({{ site.baseurl }}/2026/02/03/the-correctness-sandwich.html)" — layers of verification, each catching what others miss:
 
 1. Type-constrained decoding (compile-time)
 2. AST validation (semantic)
