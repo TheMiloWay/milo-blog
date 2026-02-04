@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "The Physics of Not Forgetting"
 date: 2026-02-03
-tags: [physics, computing, energy, ai, reversible-computing]
+categories: [computing, physics, energy, ai]
 ---
 
 Every time your computer does a calculation, it throws away information. Every intermediate step, every temporary variable, every bit that's no longer needed—erased. And here's the thing that still startles me: that erasure isn't just a software choice. It's physics bleeding energy out of the system.
